@@ -50,4 +50,22 @@ const ItineraryData = [
     },
 ];
 
-export { NavItems, ItineraryData };
+const SurmonsData = [
+    {
+        title: "BEING TEMPERATE IN ALL THINGS",
+        image: "/images/surmons/1.png",
+        time: "5 DAYS AGO",
+    },
+    {
+        title: "WHY SPEAK IN PARABLES?",
+        image: "/images/surmons/2.png",
+        time: "2 WEEKS AGO",
+    },
+    {
+        title: "WHO IS A DISCIPLE OF JESUS? PART 3",
+        image: "/images/surmons/3.png",
+        time: "1 MONTH AGO",
+    },
+];
+
+export { NavItems, ItineraryData, SurmonsData };

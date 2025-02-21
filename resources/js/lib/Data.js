@@ -50,6 +50,45 @@ const ItineraryData = [
     },
 ];
 
+const CirclesData = [
+    {
+        image: "/images/hero/circle1.png",
+        className: "absolute w-[670px] h-[670px] top-[-38px] left-[29px] z-0",
+    },
+    {
+        image: "/images/hero/circle2.png",
+        className: "absolute w-[670px] h-[670px] top-[-402px] left-[111px] z-0",
+    },
+    {
+        image: "/images/hero/circle3.png",
+        className: "absolute w-[670px] h-[670px] top-0 right-0 z-0",
+    },
+    {
+        image: "/images/hero/circle4.png",
+        className: "absolute w-[670px] h-[670px] top-0 right-0 z-0",
+    },
+    {
+        image: "/images/hero/circle5.png",
+        className: "absolute w-[670px] h-[670px] bottom-0 right-0 z-0",
+    },
+    {
+        image: "/images/hero/circle6.png",
+        className: "absolute w-[670px] h-[670px] bottom-0 right-10 z-0",
+    },
+    {
+        image: "/images/hero/circle7.png",
+        className: "absolute left-[471px] bottom-0 z-0",
+    },
+    {
+        image: "/images/hero/circle8.png",
+        className: "absolute left-[228px] bottom-0 z-0",
+    },
+    {
+        image: "/images/hero/circle9.png",
+        className: "absolute left-[204px] top-[479px] z-0",
+    },
+];
+
 const SurmonsData = [
     {
         title: "BEING TEMPERATE IN ALL THINGS",
@@ -67,5 +106,15 @@ const SurmonsData = [
         time: "1 MONTH AGO",
     },
 ];
+const Herotext = `For this reason, I've called you; that you may judge the pharaoh of your generation and kill the Herods, that my people will receive their inheritance. As for you, your call is for war. For this reason, I've called you; that you may judge the pharaoh of your generation and kill the Herods, that my people will receive their inheritance. As for you, your call is for war. For this reason, I've called you; that you may judge the pharaoh of your generation and kill the Herods, that my people will receive their inheritance. As for you, your call is for war. For this reason, I've called you; that you may judge the pharaoh of your generation and kill the Herods, that my people will receive their inheritance. As for you, your call is for war. For this reason, I've called you; that you may judge the pharaoh of your generation and kill the Herods, that my people will receive their inheritance. As for you, your call is for war. For this reason, I've called you; that you may judge the pharaoh of your generation and kill the Herods, that my people will receive their inheritance. As for you, your call is for war. For this reason, I've called you; that you may judge the pharaoh of your generation and kill the Herods, that my people will receive their inheritance. As for you, your call is for war. For this reason, I've called you; that you may judge the pharaoh of your generation and kill the Herods, that my people will receive their inheritance. As for you, your call is for war. For this reason, I've called you; that you may judge the pharaoh of your generation and kill the Herods, that my people will receive their inheritance. As for you, your call is for war. For this reason, I've called you; that you may judge the pharaoh of your generation and kill the Herods, that my people will receive their inheritance. As for you, your call is for war.`;
 
-export { NavItems, ItineraryData, SurmonsData };
+const AuthorText = `For this reason, I've called you; that you may judge the pharaoh of your generation and kill the Herods, that my people will receive their inheritance. As for you, your call is for war. For this reason, I've called you; that you may judge the pharaoh of your generation and kill the Herods, that my people will receive their inheritance. As for you, your call is for war. For this reason, I've called you; that you may judge the pharaoh of your generation and kill the Herods, that my people will receive their inheritance. As for you, your call is for war. For this reason, I've called you; that you may judge the pharaoh of your generation and kill the Herods, that my people will receive their inheritance. As for you, your call is for war. For this reason, I've called you; that you may judge the pharaoh of your generation and kill the Herods, that my people will receive their inheritance. As for you, your call is for war. For this reason, I've called you; that you may judge the pharaoh of your generation and kill the Herods, that my people will receive their inheritance. As for you, your call is for war. For this reason, I've called you; that you may judge the pharaoh of your generation and kill the Herods, that my people will receive their inheritance. As for you, your call is for war.`;
+
+export {
+    NavItems,
+    ItineraryData,
+    SurmonsData,
+    CirclesData,
+    Herotext,
+    AuthorText,
+};

@@ -28,7 +28,6 @@ function Itinerary() {
             <motion.h1
                 initial={{ opacity: 0, y: -20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
                 transition={{ duration: 0.6 }}
                 className="text-[#070707] text-[64px] sm:text-[100px] md:text-[150px] lg:text-[200px] font-semibold -tracking-[2%] leading-[1] sm:leading-[1.1] md:leading-[1.2] xl:leading-[1] text-center mb-[30px] sm:mb-[45px] md:mb-[66px]"
             >
@@ -38,7 +37,6 @@ function Itinerary() {
                 variants={containerVariants}
                 initial="hidden"
                 whileInView="visible"
-                viewport={{ once: true }}
                 className="w-full flex flex-col items-center mt-[20px] sm:mt-[30px] md:mt-[43px] gap-[13px]"
             >
                 {ItineraryData.map((item, index) => (

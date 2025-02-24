@@ -77,7 +77,7 @@ function Commission() {
                 </motion.div>
             </ContainerWrapper>
 
-            <div className="w-full relative flex justify-end mt-[50px] sm:mt-[80px] md:mt-[100px]">
+            <div className="w-full relative flex justify-end mt-[5px]">
                 <motion.div
                     className="w-full md:w-[55%] h-[300px] sm:h-[400px] md:h-[579px] relative"
                     initial={{ opacity: 0, x: 100 }}

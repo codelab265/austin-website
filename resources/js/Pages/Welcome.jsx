@@ -6,6 +6,7 @@ import Testimonies from "@/Components/Testimonies";
 import MainLayout from "@/Layouts/MainLayout";
 import { Head } from "@inertiajs/react";
 import React from "react";
+import Book from "@/Components/Book";
 
 function Welcome() {
     return (
@@ -13,6 +14,7 @@ function Welcome() {
             <Head title="Welcome" />
             <Hero />
             <Commission />
+            <Book />
             <Surmons />
             <Itinerary />
             <Testimonies />

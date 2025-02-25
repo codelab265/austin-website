@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 function Commission() {
     return (
-        <section className="bg-white flex flex-col w-full pb-[80px] sm:pb-[100px] md:pb-[135px]">
+        <section className="max-w-[1440px] mx-auto bg-white flex flex-col w-full pb-[80px] sm:pb-[100px] md:pb-[135px]">
             <ContainerWrapper
                 className={
                     "pt-[60px] sm:pt-[80px] md:pt-[108px] px-4 sm:px-8 md:px-[100px] lg:px-[168px] w-full"

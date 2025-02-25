@@ -7,6 +7,7 @@ import MainLayout from "@/Layouts/MainLayout";
 import { Head } from "@inertiajs/react";
 import React from "react";
 import Book from "@/Components/Book";
+import SendEnvite from "@/Components/SendEnvite";
 
 function Welcome() {
     return (
@@ -17,6 +18,7 @@ function Welcome() {
             <Book />
             <Surmons />
             <Itinerary />
+            <SendEnvite />
             <Testimonies />
         </MainLayout>
     );

@@ -6,7 +6,7 @@ import ContainerWrapper from "./ContainerWrapper";
 function Book() {
     return (
         <section className="max-w-[1440px] mx-auto bg-white relative pb-[80px] sm:pb-[120px] md:pb-[201px]">
-            <ContainerWrapper className="w-full flex flex-col overflow-hidden">
+            <ContainerWrapper className="w-full flex flex-col overflow-hidden md:overflow-visible">
                 <motion.div
                     className="w-full"
                     initial={{ opacity: 0, y: 50 }}

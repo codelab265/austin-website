@@ -9,7 +9,7 @@ function TestimonialSlider() {
             {/* add next slider here */}
             <div className="w-full max-w-[1130px] px-[65px] py-[55px] bg-[#EA413C]">
                 <div className="text-[32px] font-medium text-white/50 -tracking-[2%] leading-[30px] uppercase">
-                    Canada
+                    Malawi
                 </div>
                 <div className="text-2xl font-aeonik text-white tracking-normal mt-[37px]">
                     Of a truth, I went on a retreat with the book; The Field of

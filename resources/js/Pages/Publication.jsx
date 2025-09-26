@@ -1,0 +1,332 @@
+import ContainerWrapper from "@/Components/ContainerWrapper";
+import Navbar from "@/Components/Navbar";
+import Testimonies from "@/Components/Testimonies";
+import MainLayout from "@/Layouts/MainLayout";
+import { Head } from "@inertiajs/react";
+import React from "react";
+import { motion } from "framer-motion";
+
+function Publication() {
+    const containerVariants = {
+        hidden: { opacity: 0 },
+        visible: {
+            opacity: 1,
+            transition: {
+                staggerChildren: 0.2,
+            },
+        },
+    };
+
+    const itemVariants = {
+        hidden: { opacity: 0, y: 30 },
+        visible: {
+            opacity: 1,
+            y: 0,
+            transition: { duration: 0.6 },
+        },
+    };
+
+    return (
+        <MainLayout>
+            <Head title="Publications" />
+            <div className="w-full bg-white pt-[34px]">
+                <ContainerWrapper>
+                    <Navbar color="[#070707]" />
+                </ContainerWrapper>
+
+                {/* Hero Section */}
+                <motion.section
+                    initial={{ opacity: 0, y: 50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.8 }}
+                    className="mt-[99px] w-full"
+                >
+                    <ContainerWrapper className="">
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-[50px] lg:gap-[170px] px-4 sm:px-6 lg:px-8">
+                            <motion.div
+                                initial={{ opacity: 0, x: -50 }}
+                                whileInView={{ opacity: 1, x: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ duration: 0.6, delay: 0.2 }}
+                                className="col-span-1 pl-0 lg:pl-[50px]"
+                            >
+                                <h2 className="text-[#070707] uppercase font-semibold w-full max-w-[447px]">
+                                    <motion.span
+                                        initial={{ opacity: 0, y: 30 }}
+                                        whileInView={{ opacity: 1, y: 0 }}
+                                        viewport={{ once: true }}
+                                        transition={{
+                                            duration: 0.5,
+                                            delay: 0.3,
+                                        }}
+                                        className="text-[48px] sm:text-[64px] lg:text-[96px] leading-[60px] sm:leading-[80px] lg:leading-[150px] -tracking-[2%] block pl-0 sm:pl-[32px] lg:pl-[63px]"
+                                    >
+                                        THE
+                                    </motion.span>
+                                    <motion.span
+                                        initial={{ opacity: 0, y: 30 }}
+                                        whileInView={{ opacity: 1, y: 0 }}
+                                        viewport={{ once: true }}
+                                        transition={{
+                                            duration: 0.5,
+                                            delay: 0.4,
+                                        }}
+                                        className="text-[100px] sm:text-[150px] lg:text-[200px] leading-[80px] sm:leading-[120px] lg:leading-[150px] -tracking-[2%]"
+                                    >
+                                        FIELD
+                                    </motion.span>
+                                    <motion.span
+                                        initial={{ opacity: 0, y: 30 }}
+                                        whileInView={{ opacity: 1, y: 0 }}
+                                        viewport={{ once: true }}
+                                        transition={{
+                                            duration: 0.5,
+                                            delay: 0.5,
+                                        }}
+                                        className="text-[48px] sm:text-[64px] lg:text-[96px] leading-[60px] sm:leading-[80px] lg:leading-[150px] -tracking-[2%] ml-0 sm:ml-2 lg:ml-4"
+                                    >
+                                        OF
+                                    </motion.span>
+                                    <motion.span
+                                        initial={{ opacity: 0, y: 30 }}
+                                        whileInView={{ opacity: 1, y: 0 }}
+                                        viewport={{ once: true }}
+                                        transition={{
+                                            duration: 0.5,
+                                            delay: 0.6,
+                                        }}
+                                        className="text-[150px] sm:text-[200px] lg:text-[300px] leading-[120px] sm:leading-[160px] lg:leading-[150px] -tracking-[2%] block pl-0 sm:pl-[32px] lg:pl-[63px] text-[#EA413C]"
+                                    >
+                                        BOAZ
+                                    </motion.span>
+                                </h2>
+                            </motion.div>
+                            <motion.div
+                                initial={{ opacity: 0, x: 50 }}
+                                whileInView={{ opacity: 1, x: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ duration: 0.6, delay: 0.4 }}
+                                className="col-span-1 flex items-center text-base sm:text-lg leading-[120%] sm:leading-[100%] tracking-normal font-aeonik"
+                            >
+                                My journey from sin to salvation is skillfully
+                                interwoven with the narrative of Ruth from the
+                                Bible. Through this stirring account of a sinful
+                                past, heartfelt conversion, and the pursuit of
+                                God's will for marriage, this book reveals a
+                                timeless truth: no matter your past, redemption
+                                and divine guidance for a fulfilling marriage
+                                are within reach for everyone.
+                            </motion.div>
+                        </div>
+                        <motion.div
+                            initial={{ opacity: 0, scale: 0.95 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.8, delay: 0.6 }}
+                            className="w-full relative h-[400px] sm:h-[500px] lg:h-[754px] mt-8 lg:mt-0"
+                        >
+                            <div className="absolute -top-[37px] sm:-top-[50px] lg:-top-[75px] right-0 w-full h-full">
+                                <div className="relative flex justify-end w-full">
+                                    <motion.img
+                                        initial={{ opacity: 0, x: -100 }}
+                                        whileInView={{ opacity: 1, x: 0 }}
+                                        viewport={{ once: true }}
+                                        transition={{
+                                            duration: 0.6,
+                                            delay: 0.8,
+                                        }}
+                                        src="/images/publication/boaz-1.png"
+                                        alt="publication"
+                                        className="w-[287px] sm:w-[400px] lg:w-[574px] h-[309px] sm:h-[400px] lg:h-[618px] object-cover absolute -bottom-[34px] sm:-bottom-[50px] lg:-bottom-[68px] -left-[22px] sm:-left-[35px] lg:-left-[44px]"
+                                    />
+                                    <motion.img
+                                        initial={{ opacity: 0, scale: 0.8 }}
+                                        whileInView={{ opacity: 1, scale: 1 }}
+                                        viewport={{ once: true }}
+                                        transition={{
+                                            duration: 0.6,
+                                            delay: 1.0,
+                                        }}
+                                        src="/images/publication/boaz-book.png"
+                                        alt="publication"
+                                        className="w-[165px] sm:w-[250px] lg:w-[331.33px] h-[235px] sm:h-[350px] lg:h-[471.37px] object-cover absolute bottom-[17px] sm:bottom-[25px] lg:bottom-[34px] right-[275px] sm:right-[400px] lg:right-[551px] z-10"
+                                    />
+                                    <motion.div
+                                        initial={{ opacity: 0, x: 100 }}
+                                        whileInView={{ opacity: 1, x: 0 }}
+                                        viewport={{ once: true }}
+                                        transition={{
+                                            duration: 0.6,
+                                            delay: 1.2,
+                                        }}
+                                        className="w-[301px] sm:w-[450px] lg:w-[603px] h-[377px] sm:h-[500px] lg:h-[754px]"
+                                    >
+                                        <img
+                                            src="/images/publication/boaz-3.png"
+                                            alt="publication"
+                                            className="w-full h-full object-cover"
+                                        />
+                                    </motion.div>
+                                </div>
+                            </div>
+                        </motion.div>
+                    </ContainerWrapper>
+                </motion.section>
+
+                {/* Foreword Section */}
+                <motion.section
+                    initial={{ opacity: 0, y: 50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.8 }}
+                    className="mt-[60px] sm:mt-[80px] lg:mt-[120px] w-full"
+                >
+                    <ContainerWrapper className="flex flex-col items-center px-4 sm:px-6 lg:px-8">
+                        <motion.h1
+                            initial={{ opacity: 0, y: 30 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.6, delay: 0.2 }}
+                            className="text-[#070707] text-[50px] sm:text-[70px] lg:text-[100px] leading-[60px] sm:leading-[90px] lg:leading-[150px] -tracking-[2%] font-semibold"
+                        >
+                            FOREWORD
+                        </motion.h1>
+                        <motion.p
+                            initial={{ opacity: 0, y: 30 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.6, delay: 0.4 }}
+                            className="text-base sm:text-lg leading-[120%] sm:leading-[100%] tracking-normal font-aeonik max-w-[732px] text-center mt-4 sm:mt-6"
+                        >
+                            This work is a rich resource of the single and
+                            married alike. It is the by-product of grace and
+                            mercy worked through the vessel of the author, which
+                            is why I believe it will resonate with so many in
+                            the body of Christ; especially those with similar
+                            challenges that the Lord has helped the author to
+                            overcome. It is a solid testimony of things seen,
+                            heard, and handled in, by, and through God, which
+                            are both timely and timeless. I commend the author
+                            for a job well done and recommend this work to the
+                            body of Christ the world over.
+                        </motion.p>
+                        <motion.h3
+                            initial={{ opacity: 0, y: 30 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.6, delay: 0.6 }}
+                            className="text-[#070707] text-2xl sm:text-3xl lg:text-4xl -tracking-[2%] font-bold mt-6 sm:mt-8 lg:mt-9"
+                        >
+                            AROME OSAYI
+                        </motion.h3>
+                        <motion.p
+                            initial={{ opacity: 0, y: 30 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.6, delay: 0.8 }}
+                            className="text-base sm:text-lg leading-[120%] sm:leading-[100%] tracking-normal font-aeonik text-center text-[#EA413C]"
+                        >
+                            Setman, RCN Network Global
+                        </motion.p>
+                    </ContainerWrapper>
+                </motion.section>
+
+                {/* Stats Section */}
+                <motion.section
+                    initial={{ opacity: 0, y: 50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.8 }}
+                    className="w-full mt-[40px] sm:mt-[60px] lg:mt-[81px] bg-[#070707]"
+                >
+                    <div className="w-full max-w-[880px] grid grid-cols-1 lg:grid-cols-12 mx-auto gap-[40px] lg:gap-[83px] px-4 sm:px-6 lg:px-8 ">
+                        <motion.div
+                            initial={{ opacity: 0, x: -50 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.6, delay: 0.2 }}
+                            className="col-span-1 lg:col-span-5 flex flex-col justify-center text-center lg:text-left"
+                        >
+                            <motion.span
+                                initial={{ opacity: 0, y: 30 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ duration: 0.5, delay: 0.3 }}
+                                className="text-[#EA413C] text-4xl sm:text-5xl lg:text-7xl leading-tight -tracking-[2%] font-monoline -mb-10 sm:-mb-16 lg:-mb-20 ml-0 sm:ml-4 lg:ml-8 z-10"
+                            >
+                                Over
+                            </motion.span>
+                            <motion.h1
+                                initial={{ opacity: 0, scale: 0.8 }}
+                                whileInView={{ opacity: 1, scale: 1 }}
+                                viewport={{ once: true }}
+                                transition={{ duration: 0.6, delay: 0.4 }}
+                                className="text-[#fff] text-[90px] sm:text-[120px] lg:text-[180px] leading-tight -tracking-[2%] font-bold"
+                            >
+                                5,000
+                            </motion.h1>
+                            <motion.h2
+                                initial={{ opacity: 0, y: 30 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ duration: 0.5, delay: 0.5 }}
+                                className="text-[#fff] text-[40px] sm:text-[60px] lg:text-[80px] leading-[60px] sm:leading-[90px] lg:leading-[150px] -tracking-[2%] font-semibold -mt-10 sm:-mt-16 lg:-mt-20 uppercase"
+                            >
+                                Copies Sold
+                            </motion.h2>
+
+                            <motion.h3
+                                initial={{ opacity: 0, y: 30 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ duration: 0.5, delay: 0.6 }}
+                                className="text-[#fff] text-[20px] sm:text-[30px] lg:text-[40px] leading-[25px] sm:leading-[28px] lg:leading-[30px] -tracking-[2%] font-semibold mt-4 sm:mt-6"
+                            >
+                                DON'T MISS OUT!
+                            </motion.h3>
+                            <motion.button
+                                initial={{ opacity: 0, y: 30 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                viewport={{ once: true }}
+                                transition={{ duration: 0.5, delay: 0.7 }}
+                                whileHover={{ scale: 1.05 }}
+                                whileTap={{ scale: 0.95 }}
+                                className="bg-[#EA413C] text-white py-[14px] sm:py-[16px] lg:py-[18px] rounded-sm mt-3 font-medium text-[20px] sm:text-[24px] lg:text-[27px] leading-[25px] sm:leading-[28px] lg:leading-[30px] -tracking-[2%] hover:bg-[#d63a35] transition-colors w-[200px] sm:w-[220px] lg:w-[244px] rounded-none mx-auto lg:mx-0"
+                            >
+                                GET A COPY
+                            </motion.button>
+                        </motion.div>
+                        <motion.div
+                            initial={{ opacity: 0, x: 50 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: 0.6, delay: 0.4 }}
+                            className="col-span-1 lg:col-span-7"
+                        >
+                            <div className="w-full h-[300px] sm:h-[400px] lg:h-[672px]">
+                                <img
+                                    src="/images/publication/packaging.png"
+                                    className="w-full h-full object-cover"
+                                />
+                            </div>
+                        </motion.div>
+                    </div>
+                </motion.section>
+
+                {/* Testimonies Section */}
+                <motion.section
+                    variants={containerVariants}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true }}
+                    className="w-full mt-[90px] sm:mt-[120px] lg:mt-[180px] mb-[60px] sm:mb-[90px] lg:mb-[120px]"
+                >
+                    <Testimonies />
+                </motion.section>
+            </div>
+        </MainLayout>
+    );
+}
+
+export default Publication;

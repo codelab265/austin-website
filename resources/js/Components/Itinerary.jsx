@@ -3,7 +3,7 @@ import ItineraryCard from "./ItineraryCard";
 import { ItineraryData } from "@/lib/Data";
 import { motion } from "framer-motion";
 
-function Itinerary() {
+function Itinerary({ title = "" }) {
     const containerVariants = {
         hidden: { opacity: 0 },
         visible: {
@@ -24,15 +24,17 @@ function Itinerary() {
     };
 
     return (
-        <section className="bg-white flex flex-col items-center w-full pt-[100px] sm:pt-[150px] md:pt-[201px] pb-[80px] sm:pb-[100px] md:pb-[152px] px-4 sm:px-6 md:px-8">
-            <motion.h1
-                initial={{ opacity: 0, y: -20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6 }}
-                className="text-[#070707] text-[64px] sm:text-[100px] md:text-[150px] lg:text-[200px] font-semibold -tracking-[2%] leading-[1] sm:leading-[1.1] md:leading-[1.2] xl:leading-[1] text-center mb-[30px] sm:mb-[45px] md:mb-[66px]"
-            >
-                ITINERARY
-            </motion.h1>
+        <section className="bg-white flex flex-col items-center w-full  px-4 sm:px-6 md:px-8">
+            {title && (
+                <motion.h1
+                    initial={{ opacity: 0, y: -20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.6 }}
+                    className="text-[#070707] text-[64px] sm:text-[100px] md:text-[150px] lg:text-[200px] font-semibold -tracking-[2%] leading-[1] sm:leading-[1.1] md:leading-[1.2] xl:leading-[1] text-center mb-[30px] sm:mb-[45px] md:mb-[66px]"
+                >
+                    ITINERARY
+                </motion.h1>
+            )}
             <motion.div
                 variants={containerVariants}
                 initial="hidden"

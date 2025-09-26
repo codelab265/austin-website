@@ -27,7 +27,7 @@ function Hero() {
 
                 {/* Content */}
                 <ContainerWrapper className="w-full relative top-[20px] sm:top-[39px] z-50">
-                    <Navbar />
+                    <Navbar color="white" />
                     <div className="absolute top-[100px] sm:top-[163px] left-4 sm:left-[78px] max-w-[300px] sm:max-w-[450px] md:max-w-[604px] text-justify z-0">
                         <div className="bg-[linear-gradient(290deg,rgba(255,255,255,0)_13.25%,rgba(255,255,255,0.8)_100%)] bg-clip-text text-transparent opacity-30 text-[12px] sm:text-[14px] leading-[1.2] line-clamp-6 md:line-clamp-none">
                             {Herotext}

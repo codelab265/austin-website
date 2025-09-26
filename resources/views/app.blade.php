@@ -14,6 +14,8 @@
         rel="stylesheet">
     <link href="https://db.onlinewebfonts.com/c/8f2a9d487bbbc60974cd132fc3a63862?family=Aeonik+Regular"
         rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/cutyle-monoline-script-demo" rel="stylesheet">
+                
 
     <!-- Scripts -->
     @routes

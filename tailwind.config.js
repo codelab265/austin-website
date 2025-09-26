@@ -16,6 +16,10 @@ export default {
             fontFamily: {
                 sans: ["Alumni Sans", ...defaultTheme.fontFamily.sans],
                 aeonik: ["Aeonik Regular", ...defaultTheme.fontFamily.sans],
+                monoline: [
+                    "Cutyle Monoline Script Demo",
+                    ...defaultTheme.fontFamily.sans,
+                ],
             },
             borderRadius: {
                 lg: "var(--radius)",

@@ -110,6 +110,33 @@ const Herotext = `For this reason, I've called you; that you may judge the phara
 
 const AuthorText = `For this reason, I've called you; that you may judge the pharaoh of your generation and kill the Herods, that my people will receive their inheritance. As for you, your call is for war. For this reason, I've called you; that you may judge the pharaoh of your generation and kill the Herods, that my people will receive their inheritance. As for you, your call is for war. For this reason, I've called you; that you may judge the pharaoh of your generation and kill the Herods, that my people will receive their inheritance. As for you, your call is for war. For this reason, I've called you; that you may judge the pharaoh of your generation and kill the Herods, that my people will receive their inheritance. As for you, your call is for war. For this reason, I've called you; that you may judge the pharaoh of your generation and kill the Herods, that my people will receive their inheritance. As for you, your call is for war. For this reason, I've called you; that you may judge the pharaoh of your generation and kill the Herods, that my people will receive their inheritance. As for you, your call is for war. For this reason, I've called you; that you may judge the pharaoh of your generation and kill the Herods, that my people will receive their inheritance. As for you, your call is for war.`;
 
+const BlogData = [
+    {
+        title: "MENTAL SHIFTS, keys to walking by faith.",
+        description:
+            "This work is a rich resource of the single and married alike. It is the by-product of grace and mercy worked through the vessel of the author, which is why I believe it will resonate with so many in the body of Christ; especially those with similar challenges that the Lord has helped the author to overcome. It is a solid testimony of things seen, heard, and handled in, by, and through God, which are both timely and timeless. I commend the author for a job well done and recommend this work to the body of Christ the world over.",
+    },
+    {
+        title: "HOW TO AVOID WALKING IN UNGODLY COUNSEL.",
+        description:
+            "This work is a rich resource of the single and married alike. It is the by-product of grace and mercy worked through the vessel of the author, which is why I believe it will resonate with so many in the body of Christ; especially those with similar challenges that the Lord has helped the author to overcome. It is a solid testimony of things seen, heard, and handled in, by, and through God, which are both timely and timeless. I commend the author for a job well done and recommend this work to the body of Christ the world over.",
+    },
+    {
+        title: "WALKING WITH GOD REQUIRES PATIENCE AND CONVICTION.",
+        description:
+            "This work is a rich resource of the single and married alike. It is the by-product of grace and mercy worked through the vessel of the author, which is why I believe it will resonate with so many in the body of Christ; especially those with similar challenges that the Lord has helped the author to overcome. It is a solid testimony of things seen, heard, and handled in, by, and through God, which are both timely and timeless. I commend the author for a job well done and recommend this work to the body of Christ the world over.",
+    },
+    {
+        title: "WHY CHRISTIAN SHOULD BUILD CHARACTER AND CHARISMA.",
+        description:
+            "This work is a rich resource of the single and married alike. It is the by-product of grace and mercy worked through the vessel of the author, which is why I believe it will resonate with so many in the body of Christ; especially those with similar challenges that the Lord has helped the author to overcome. It is a solid testimony of things seen, heard, and handled in, by, and through God, which are both timely and timeless. I commend the author for a job well done and recommend this work to the body of Christ the world over.",
+    },
+    {
+        title: "SOUND OF ABUNDANCE - A SNAPSHOT OF NIGERIA’S FUTURE",
+        description:
+            "This work is a rich resource of the single and married alike. It is the by-product of grace and mercy worked through the vessel of the author, which is why I believe it will resonate with so many in the body of Christ; especially those with similar challenges that the Lord has helped the author to overcome. It is a solid testimony of things seen, heard, and handled in, by, and through God, which are both timely and timeless. I commend the author for a job well done and recommend this work to the body of Christ the world over.",
+    },
+];
 export {
     NavItems,
     ItineraryData,
@@ -117,4 +144,5 @@ export {
     CirclesData,
     Herotext,
     AuthorText,
+    BlogData,
 };
